@@ -1,0 +1,5 @@
+mysql:
+   mysql-database: jdbc:mysql//localhost:3306/minecraft
+   mysql-user: root
+   mysql-password: sckclosed838647
+   server-id: SP-smp1

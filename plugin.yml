@@ -1,0 +1,28 @@
+name: Slogger
+main: com.Silentneeb.Slogger.Slogger
+description: A Silent Productions suite plugin
+author: Silentneeb
+version: 1.2
+depend: [Residence, Vault]
+
+commands:
+   home:
+      description: Return to your plot.
+      permission: sentials.tp.home
+      usage: /home
+   visit:
+      description: Visit a player's lot.
+      permission: sentials.tp.visit
+      usage: /visit (player/lot #)
+   lot:
+      description: Various lot commands.
+      permission: sentials.lot.lot
+      usage: /lot ???
+   pinfo:
+      description: Gets info on a player.
+      permission: sentials.info.pinfo
+      usage: /pinfo (player)
+   lotadmin:
+      description: Various admin tools for lots.
+      permission: slogger.admin
+      usage: /lotadmin (tool)
