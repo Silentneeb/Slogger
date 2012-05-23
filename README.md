@@ -1,4 +1,4 @@
 Slogger
 =======
 
-Used for logging player last joined.
+Used for logging player logins.
